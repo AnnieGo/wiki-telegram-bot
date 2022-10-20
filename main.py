@@ -1,11 +1,7 @@
 #!/usr/bin/env python3
 import wikipedia
 
-#у бота сначала кнопка start
-# потом 2 языка на выбор - рус и англ
 wikipedia.set_lang("ru")
-
-# потом выбор - поиск по ключевым словам или рандомная статья
 
 def wiki():
   while True:
