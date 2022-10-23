@@ -1,7 +1,3 @@
-# pip install virtualenv
-# pip install aiogram
-# source.\env\bin\activate.bat
-
 from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
@@ -9,7 +5,7 @@ import wikipedia
 
 wikipedia.set_lang("ru")
 
-TOKEN = "5717924054:AAFsZYUZzD6fcz8kkiiUmfdBCCrEdycDozQ"
+TOKEN = "%add_your_token%"
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 
