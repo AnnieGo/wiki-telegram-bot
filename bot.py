@@ -36,7 +36,7 @@ async def get_text_messages(msg: types.Message):
    if msg.text.lower() == 'привет':
        await msg.answer('Привет!')
    else:
-       await msg.answer('Не понимаю, что это значит.')
+       await msg.answer('Не понимаю, что это значит')
 
 
 if __name__ == '__main__':
